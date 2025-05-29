@@ -1,6 +1,6 @@
 # StreamModel
 
-A JAX-based implementation for modeling and fitting stellar streams in galactic potentials using GPU-accelerated nested sampling in BlackJAX.
+A JAX-based implementation for modeling and fitting stellar streams in galactic potentials using GPU-accelerated nested sampling in Blackjax.
 
 ## 📦 Requirements
 
@@ -14,10 +14,13 @@ pip install -r requirements.txt
 
 ```
 .
-├── model.py               # JAX stream model and log-likelihood function
-├── priors.py              # Functions to sample from prior distributions
-├── utils.py               # Helper functions for analysis or plotting
-├── run.py                 # Example script to run the model
-├── requirements.txt       # List of dependencies
-└── README.md              # Project overview
+├── data.py                      # mock data function
+├── jax_nestedsampling_colab     # Python copy of the colab notebook
+├── loglikelihood.py             # log-likelihood function
+├── main.py                      # Example script to run the inference
+├── model.py                     # JAX stream model
+├── prior.py                     # Functions to sample from prior distributions
+├── README.md                    # Project overview
+└── requirements.txt             # List of dependencies
+
 ```
