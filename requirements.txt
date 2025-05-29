@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+tqdm
+astropy
+
+jax
+jaxlib
+distrax @ git+https://github.com/google-deepmind/distrax
+blackjax @ git+https://github.com/handley-lab/blackjax@nested_sampling
+
+anesthetic
