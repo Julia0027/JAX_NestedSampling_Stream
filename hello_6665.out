@@ -1,0 +1,9 @@
+Job started on sw-amp02 at Fri  6 Jun 11:05:35 BST 2025
+Activating virtual environment...
+Using Python: /cephfs/store/gr-mc2473/jl2268/JAX_NestedSampling_Stream/David/bin/python
+Using GPU: 0
+JAX devices: [CpuDevice(id=0)]
+Running inference script...
+Setting up nested sampling algorithm...
+Initial particles generated, shape: (100, 15)
+Job finished at Fri  6 Jun 11:06:11 BST 2025
